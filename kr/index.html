@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OceanX</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="nav-container">
+        <div class="nav-content">
+            <div class="logo">OceanX</div>
+            <ul class="nav-links">
+                <li><a href="#design">개요</a></li>
+                <li><a href="#features">특징</a></li>
+                <li><a href="#specs">사양</a></li>
+                <li><a>구매</a></li>
+                <li class="language-selector">
+                    <select id="language-select" onchange="changeLanguage(this.value)">
+                        <option value="cn">한국어</option>
+                        <option value="en">한국어</option>
+                        <option value="kr">한국어</option>
+                    </select>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" id="design">
+        <div class="design-content">
+            <div class="design-text">
+                <h1 class="product-name">Lo-Box™</h1>
+                <h2 class="product-subtitle">세계 최초의 하이로 보관함</h2>
+            </div>
+            <div class="design-image">
+                <div class="product-mockup">
+                    <img src="pic.png" alt="제품 이미지" style="width: 100%; height: 100%; object-fit: contain;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <h2>Lo-Box™를 선택하는 이유</h2>
+        <div class="feature-grid">
+            <div class="feature-item">
+                <i class="fas fa-bell"></i>
+                <h3>완벽한 맞춤</h3>
+                <p>하이로를 위해 특별히 설계된 안정적인 보관</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-shield-alt"></i>
+                <h3>안전한 보호</h3>
+                <p>하이로 손상 방지, 종합적인 안전 보장</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-magic"></i>
+                <h3>휴대용 디자인</h3>
+                <p>여행 필수품, 가볍고 편리한 휴대성</p>
+            </div>
+        </div>
+    </section>
+   
+    <section class="specs" id="specs">
+        <h2>기술 사양</h2>
+        <div class="specs-grid">
+            <div class="spec-item">
+                <h3>크기</h3>
+                <p>108 x 46 x 46 mm</p>
+            </div>
+            <div class="spec-item">
+                <h3>용량</h3>
+                <p>하이로 1병 수용</p>
+            </div>
+            <div class="spec-item">
+                <h3>재질</h3>
+                <p>PLA 친환경 소재</p>
+            </div>
+        </div>
+    </section>
+   
+    <footer>
+        <p>Copyright © 2024 OceanX. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function changeLanguage(lang) {
+            window.location.href = '/' + lang;
+        }
+    </script>
+</body>
+</html> 

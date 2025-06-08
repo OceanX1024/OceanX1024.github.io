@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OceanX</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="nav-container">
+        <div class="nav-content">
+            <div class="logo">OceanX</div>
+            <ul class="nav-links">
+                <li><a href="#design">概览</a></li>
+                <li><a href="#features">特性</a></li>
+                <li><a href="#specs">规格</a></li>
+                <li><a href="#footer">采购</a></li>
+                <li class="language-selector">
+                    <select id="language-select" onchange="changeLanguage(this.value)">
+                        <option value="cn">中文</option>
+                        <option value="en">英文</option>
+                        <option value="kr">韩文</option>
+                    </select>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" id="design">
+        <div class="design-content">
+            <div class="design-text">
+                <h1 class="product-name">Lo-Box™</h1>
+                <h2 class="product-subtitle">世界首款海露收纳盒</h2>
+            </div>
+            <div class="design-image">
+                <div class="product-mockup">
+                    <img src="pic.png" alt="产品图片" style="width: 100%; height: 100%; object-fit: contain;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <h2>为什么选择Lo-Box™</h2>
+        <div class="feature-grid">
+            <div class="feature-item">
+                <i class="fas fa-bell"></i>
+                <h3>完美适配</h3>
+                <p>专为海露设计，紧密贴合不松动</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-shield-alt"></i>
+                <h3>安全保护</h3>
+                <p>防止海露受损，全方位守护安全</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-magic"></i>
+                <h3>便携设计</h3>
+                <p>出行随护必备，轻巧随身无负担</p>
+            </div>
+        </div>
+    </section>
+   
+    <section class="specs" id="specs">
+        <h2>技术规格</h2>
+        <div class="specs-grid">
+            <div class="spec-item">
+                <h3>尺寸</h3>
+                <p>108 x 46 x 46 mm</p>
+            </div>
+            <div class="spec-item">
+                <h3>容量</h3>
+                <p>容纳 1 瓶海露</p>
+            </div>
+            <div class="spec-item">
+                <h3>材质</h3>
+                <p>PLA聚乳酸环保材料</p>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <section class="features" id="specs">
+        <h2>联系我们</h2>
+        <div style="text-align:center;">
+            <h3>邮箱：374590334@email.com</a></h3>
+            <h3>微信：your_wechat_id</h3>
+        </div> 
+    </section>
+
+
+ 
+    
+
+    <footer id="footer">
+        <p>Copyright © 2024 OceanX. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function changeLanguage(lang) {
+            window.location.href = '/' + lang;
+        }
+    </script>
+</body>
+</html> 
