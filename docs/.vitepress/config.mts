@@ -39,7 +39,7 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: '首頁', link: '/zh' },
-          { text: 'LO-BOX™', 
+          { text: 'LOBOX™', 
             items: [
               { text: '常規版', link: '/zh/lobox-basic' },
               // { text: '冷藏版', link: '/item-2' }
@@ -59,7 +59,7 @@ export default defineConfig({
         
         nav: [
           { text: 'HOME', link: '/en/' },
-          { text: 'LO-BOX™', 
+          { text: 'LOBOX™', 
             items: [
               { text: 'Basic', link: '/en/lobox-basic' },
               // { text: 'Cold', link: '/en/lobox-cold' }
@@ -75,7 +75,7 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: '홈', link: '/kr/' },
-          { text: 'LO-BOX™', 
+          { text: 'LOBOX™', 
             items: [
               { text: '기본형', link: '/kr/lobox-basic' },
               // { text: '냉장형', link: '/kr/lobox-cold' }
@@ -91,7 +91,7 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: 'Startseite', link: '/de/' },
-          { text: 'LO-BOX™', 
+          { text: 'LOBOX™', 
             items: [
               { text: 'Standard', link: '/de/lobox-basic' },
               // { text: 'Kühlversion', link: '/de/lobox-cold' }
@@ -107,7 +107,7 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: 'ホーム', link: '/jp/' },
-          { text: 'LO-BOX™', 
+          { text: 'LOBOX™', 
             items: [
               { text: '基本型', link: '/jp/lobox-basic' },
               // { text: '冷蔵型', link: '/jp/lobox-cold' }

@@ -3,11 +3,11 @@
 layout: home
 
 hero:
-  name: "LO-BOX™"
+  name: "LOBOX™"
   text: "全球首款海露收納盒"
-  tagline: 你呵護眼睛，LO-BOX™呵護海露
+  tagline: 你呵護眼睛，LOBOX™呵護海露
   image:
-    src: /vitepress-logo-large.svg
+    src: /index.png
     alt: VitePress
   actions:
     - theme: brand
@@ -18,13 +18,13 @@ hero:
     #   link: /api-examples
 
 features:
-  - icon: ❄️
+  - icon: 🌡️
     title: 隔離體溫
     details: 避免海露受熱變質
   - icon: 🛡️
     title: 落地不髒
     details: 避免瓶口觸地污染​
-  - icon: 📏
+  - icon: 📐
     title: 嚴絲合露
     details: 完美貼合海露尺寸
 ---

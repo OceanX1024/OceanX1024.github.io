@@ -3,11 +3,11 @@
 layout: home
 
 hero:
-  name: "LO-BOX™"
+  name: "LOBOX™"
   text: "World's First Hylo Box"
-  tagline: "LO-BOX™ - Caring for your Hylo"
+  tagline: "LOBOX™ - Caring for your Hylo"
   image:
-    src: /vitepress-logo-large.svg
+    src: /index.png
     alt: VitePress
   actions:
     - theme: brand
@@ -21,7 +21,7 @@ features:
   - icon: 🌡️
     title: Temperature Isolation
     details: Prevents Hylo from heat deterioration
-  - icon: 🧿
+  - icon: 🛡
     title: Clean Landing
     details: Prevents bottle tip from ground contamination
   - icon: 📐

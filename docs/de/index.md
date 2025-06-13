@@ -3,11 +3,11 @@
 layout: home
 
 hero:
-  name: "LO-BOX™"
+  name: "LOBOX™"
   text: "Die weltweit erste Hylo-Aufbewahrungsbox"
-  tagline: "LO-BOX™ - Für Ihre Augengesundheit"
+  tagline: "LOBOX™ - Für Ihre Augengesundheit"
   image:
-    src: /vitepress-logo-large.svg
+    src: /index.png
     alt: VitePress
   actions:
     - theme: brand
@@ -18,13 +18,13 @@ hero:
     #   link: /de/lobox-cold
 
 features:
-  - icon: ❄️
+  - icon: 🌡
     title: Temperaturisolation
     details: Verhindert Hitzeschäden an Hylo
   - icon: 🛡️
     title: Saubere Lagerung
     details: Verhindert Kontamination der Flaschenöffnung
-  - icon: 📏
+  - icon: 📐
     title: Perfekte Passform
     details: Ideal an die Hylo-Dimensionen angepasst
 ---

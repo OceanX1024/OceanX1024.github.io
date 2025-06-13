@@ -3,11 +3,11 @@
 layout: home
 
 hero:
-  name: "LO-BOX™"
-  text: "世界初のハイロ収納ボックス"
-  tagline: "LO-BOX™ - あなたの目を大切に"
+  name: "LOBOX™"
+  text: "世界初ハイロボックス"
+  tagline: "LOBOX™ - あなたの目を大切に"
   image:
-    src: /vitepress-logo-large.svg
+    src: /index.png
     alt: VitePress
   actions:
     - theme: brand
@@ -18,13 +18,13 @@ hero:
     #   link: /jp/lobox-cold
 
 features:
-  - icon: ❄️
+  - icon: 🌡
     title: 温度遮断
     details: ハイロの熱による劣化を防止
   - icon: 🛡️
     title: 清潔な保管
     details: ボトル先端の汚染を防止
-  - icon: 📏
+  - icon: 📐
     title: 完璧なフィット
     details: ハイロのサイズに完全に適合
 ---

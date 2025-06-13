@@ -1,13 +1,10 @@
----
-outline: [2,3,4]
----
+# Produktaussehen
+![LOBOX](./LOBOX/LOBOX.png)
 
 # Produktspezifikationen
 
-### Abmessungen
-
-### Materialien
-
-### Gewicht
-
-
+| Eigenschaft | Wert            |
+|-------------|-----------------|
+| Größe       | 46 * 46 * 108mm |
+| Material    | PLA, PETG       |
+| Gewicht     | 62g ±3g          |
