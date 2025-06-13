@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "LO-BOX™"
+  name: "LOBOX™"
   text: "세계 첫 하이로 보관함"
-  tagline: "LO-BOX™ - 당신의 눈을 소중히"
+  tagline: "LOBOX™ - 당신의 눈을 소중히"
   image:
     src: /index.png
     alt: VitePress

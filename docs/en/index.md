@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "LOBOX™"
-  text: "World's First Hylo Box"
+  text: "World's First Hylo Case"
   tagline: "LOBOX™ - Caring for your Hylo"
   image:
     src: /index.png
